@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
 body {
     font-family: Arial, sans-serif;
     background-size: cover;
@@ -6,10 +11,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #003f5c;
 }
 
 .left-sidebar {
-    background-image: url(images/bgImg.jpeg);
+    background-image: url(images/background.jpeg);
     background-size: cover;
 }
 
@@ -26,14 +32,19 @@ body {
 }
 
 .form-container {
-    max-width: 400px;
+    max-width: 570px;
     margin: auto;
 }
 
 h1 {
     text-align: center;
     color: white;
-    font-family: Nors;
+    font-family: Norse-Bold, sans-serif;
+    font-size: 70px;
+}
+
+h3 {
+    font-weight: bolder;
 }
 
 p {
@@ -78,8 +89,8 @@ a {
     color: #4CAF50;
 }
 
-.right-sidebar {
-    height: 700px;
+.left-sidebar {
+    height: 800px;
     width: 500px;
 }
 
@@ -96,4 +107,5 @@ a {
 
 .odin-logo > img {
     height: 100px;
+
 }
