@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    /* background-image: url('https://images.unsplash.com/photo-1557682212-7b8ca4f1d673'); */
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -10,7 +9,7 @@ body {
 }
 
 .left-sidebar {
-    background-image: url(new.jpg);
+    background-image: url(images/bgImg.jpeg);
     background-size: cover;
 }
 
@@ -79,7 +78,7 @@ a {
     color: #4CAF50;
 }
 
-.left-sidebar {
+.right-sidebar {
     height: 700px;
     width: 500px;
 }
